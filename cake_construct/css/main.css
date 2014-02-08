@@ -1,6 +1,7 @@
-/** cake css sheet by eli gerena **/
+ /*cake css sheet by eli gerena 
+standardizing the html and body with common uses */
 html{
-    background-color: white;
+    background-color: wheat;
     width: 100%;
     font-family: Helvetica;
 }
@@ -10,6 +11,7 @@ body{
     margin: 0 auto;
     border-radius:5px 5px 5px 5px;
 }
+/* -------------------------------- HEADER SECTION */
 .header,.footer{
     overflow:auto;
     background-color: #ffa982;
@@ -53,6 +55,8 @@ a{
     margin: 10px;
     padding:2px;
 }
+/* -------------------------------- LOGIN AND REGISTRATION FORMS SECTION */
+
 .popout{
     background-color: gray;
     display: inline;
@@ -96,6 +100,8 @@ a{
     float: left;
     clear: left;
  }
+ /* -------------------------------- BODY SECTION */
+
 .body-div{
     width: 100%;
     height: 100%;
@@ -112,6 +118,7 @@ a{
     background-size: 101%;
 }
 .cta h2{
+    width:327px;
     font-family: 'Bilbo Swash Caps', cursive;
     font-style:normal;
     font-size: 30px;
@@ -135,6 +142,8 @@ a{
     top: 461px;
     margin: 10px;
 }
+/* -------------------------------- DETAIL INFORMATION SECTION */
+
 .wed, .birth, .corp{
     margin: 10px 0px 10px 0px;
     background-color: #ccc;
@@ -200,6 +209,8 @@ a{
     float: right;
     clear: right;
 }
+/* -------------------------------- DIVIDER AND FOOTER SECTION */
+
 hr{
     margin-top: 10px;
 }
@@ -210,4 +221,9 @@ hr{
     border-radius: 0 0 5px 5px;
 }
 .footer p{
+}
+/* -------------------------------- LINK STATES SECTION */
+/* -------------------------------- HOVER SECTION */
+body a:hover{
+    color: white;
 }
