@@ -10,7 +10,7 @@ body{
     margin: 0 auto;
     border-radius:5px 5px 5px 5px;
 }
-.header{
+.header,.footer{
     overflow:auto;
     background-color: #ffa982;
     margin-top:5px;
@@ -207,6 +207,7 @@ hr{
     padding: 5px;
     text-align: center;
     clear: both;
+    border-radius: 0 0 5px 5px;
 }
 .footer p{
 }
