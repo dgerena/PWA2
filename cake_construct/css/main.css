@@ -1,0 +1,212 @@
+/** cake css sheet by eli gerena **/
+html{
+    background-color: white;
+    width: 100%;
+    font-family: Helvetica;
+}
+body{
+    background-color: gray;
+    width:960px;
+    margin: 0 auto;
+    border-radius:5px 5px 5px 5px;
+}
+.header{
+    overflow:auto;
+    background-color: #ffa982;
+    margin-top:5px;
+    margin-bottom: -10px;
+    border: solid;
+    border-width:5px; 
+    border-color:#ffa972;
+    border-radius:5px 5px 0 0;
+}
+.logo{
+    border-radius: 100%;
+    height: 80px;
+    padding: 5px;
+    background-color: gray;
+    display: inline-block;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+.navigation{
+    padding: 13px;
+    float: left;
+}
+.navigation li{
+    float: left;
+    list-style: none;
+    font-family: Helvetica;
+    padding: 2px;
+    margin: 3px;
+}
+.member-entry{
+    float: right;
+}
+.member-entry li{
+    list-style: none;
+    float: left;
+    margin: 10px;
+    padding:2px;
+}
+.popout{
+    background-color: gray;
+    display: inline;
+    position:absolute; 
+    right: 13%;
+    top:17.8%;
+    float: right;
+    text-align: center;
+    border:1px solid;
+    border-top:none;
+    border-radius:0 0 10% 10%;
+}
+.popout hr{
+    clear: both;
+}
+#login{
+    padding: 5px;
+    display: inline;
+}
+#login input{
+    float: left;
+    clear: both;
+}
+#login label{
+    float: left;
+    clear: left;
+ }
+#login #current-submit,#registration #reg-submit{
+    float: right;
+    clear: both;
+}
+#registration{
+    padding: 5px;
+    display:inline;
+}
+#registration input{
+    float: left;
+    clear: both;
+}
+#registration label{
+    float: left;
+    clear: left;
+ }
+.body-div{
+    width: 100%;
+    height: 100%;
+    display:block;
+    clear: both;
+    overflow: hidden;
+}
+.cta{
+    height: 583px;
+    width: 100%;
+    clear: both;
+    background-image: url('../img/mulitple-cakes-1opti.jpg');
+    background-repeat: no-repeat;
+    background-size: 101%;
+}
+.cta h2{
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-style:normal;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    margin: 10px;
+}
+.statement{
+    display: inline-block;
+    float: right;
+    margin: 10px;
+    padding: 2px;
+    width: 45%;
+}
+.cta-entry{
+    font-size: 22px;
+    display: inline-block;
+    position: relative;
+    left: 72%;
+    top: 461px;
+    margin: 10px;
+}
+.wed, .birth, .corp{
+    margin: 10px 0px 10px 0px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+.wed a, .birth a, .corp a{
+    float:right;
+    padding:5px;
+    margin: 30px;
+}
+#wedding h2{
+    border-radius: 5px;
+    background-image: url('../img/weddingcakeredbowwhiteiceopti.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 250px;
+    color: white;
+    font-family: 'Bilbo Swash Caps', cursive;
+    float: left;
+    display: inline-block;
+}
+#wedding p{
+    margin: 10px;
+    padding: 12px;
+    width: 68%;
+    float: right;
+    clear: right;
+}
+.birth h2{
+    border-radius: 5px;
+    background-image: url('../img/radial-line-cakeopti.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 180px;
+    width: 250px;
+    color: white;
+    font-family: 'Bilbo Swash Caps', cursive;
+    float: left;
+}
+.birth p{
+    margin: 10px;
+    padding: 12px;
+    width: 68%;
+    float: right;
+    clear: right;
+}
+.corp h2{
+    border-radius: 5px;
+    background-image: url('../img/whiteflowercakeopti.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 180px;
+    width: 250px;
+    color: white;
+    font-family: 'Bilbo Swash Caps', cursive;
+    float: left;
+}
+.corp p{
+    margin: 10px;
+    padding: 12px;
+    width: 68%;
+    float: right;
+    clear: right;
+}
+hr{
+    margin-top: 10px;
+}
+.footer{
+    padding: 5px;
+    text-align: center;
+    clear: both;
+}
+.footer p{
+}
