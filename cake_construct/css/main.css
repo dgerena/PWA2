@@ -61,7 +61,7 @@ a{
 
 .popout{
     background-color: gray;
-    display: inline;
+    display: none;
     position:absolute; 
     right: 247px;
     top:105px;
@@ -228,4 +228,57 @@ hr{
 /* -------------------------------- HOVER SECTION */
 body a:hover{
     color: white;
+}
+/* -------------------------------- APP PAGE SECTION */
+/* -------------------------------- HEADER SECTION */
+.app_header{
+        background-color: #ffa982;
+
+}
+.app_header #nav{
+    overflow: hidden;
+}
+.app_header .navigation{
+    float:none;
+    overflow: hidden;
+    margin-top:5px;
+    margin-bottom: -10px;
+    border: solid;
+    border-width:5px; 
+    border-color:#ffa972;
+    border-radius:5px 5px 0 0;
+}
+#logout{
+    float: right;
+}
+#app-outer-container .cta{
+    width: 500px;
+    height: 500px;
+}
+.body-div{
+    width: 450px;
+    display: block;
+    clear: none;
+    float: left;
+    margin: 7px;
+    border-radius: 5px;
+}
+.body-div p{
+    width: initial;
+}
+div #wedding{
+    margin-top: 20px;
+}
+#wedding p{
+    width: initial;
+}
+div.body-div{
+    margin-top: 
+}
+#app-outer-container .cta{
+    width: 449px;
+}
+.corp{
+    float: right;
+    margin-right: 38px;
 }
