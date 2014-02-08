@@ -57,13 +57,13 @@ a{
     background-color: gray;
     display: inline;
     position:absolute; 
-    right: 13%;
+    right: 16.4%;
     top:17.8%;
     float: right;
     text-align: center;
     border:1px solid;
     border-top:none;
-    border-radius:0 0 10% 10%;
+    border-radius:0 0 5px 5px;
 }
 .popout hr{
     clear: both;
