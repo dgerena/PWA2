@@ -23,13 +23,18 @@ body{
     border-radius:5px 5px 0 0;
 }
 .logo{
-    border-radius: 100%;
     height: 80px;
     padding: 5px;
     background-image: url('../img/Piece_of_Cake.png');
     background-repeat: no-repeat;
-    width: 95px;
+    width: 100px;
+    background-size:150px 100px;
+    background-position:-15px;
     display: inline-block;
+    float: left;
+}
+.header h1{
+    font-size: 30px;
     float: left;
 }
 a{
@@ -110,6 +115,10 @@ a{
     display:block;
     clear: both;
     overflow: hidden;
+}
+.body-div .main{
+    height: 1401px;
+    background-color:#ccc;
 }
 .cta{
     height: 583px;
@@ -243,7 +252,7 @@ body a:hover{
     overflow: hidden;
     margin-top:5px;
     margin-bottom: -10px;
-    border: solid;
+    /*border: solid;*/
     border-width:5px; 
     border-color:#ffa972;
     border-radius:5px 5px 0 0;
@@ -251,25 +260,25 @@ body a:hover{
 #logout{
     float: right;
 }
-#app-outer-container .cta{
+#app-outer-container app_cta{
     width: 500px;
     height: 500px;
 }
-.body-div{
+.app_body-div,.app-corp,.app-birth,.app-wed{
     width: 450px;
     display: block;
     clear: none;
     float: left;
     margin: 7px;
     border-radius: 5px;
+    background-color: #ccc;
+
 }
-.body-div p{
-    width: initial;
-}
+
 div #wedding{
     margin-top: 20px;
 }
-#wedding p{
+#wedding .app-text,.body-div .app-text{
     width: initial;
 }
 div.body-div{
@@ -278,7 +287,7 @@ div.body-div{
 #app-outer-container .cta{
     width: 449px;
 }
-.corp{
+.app-corp{
     float: right;
     margin-right: 38px;
 }
