@@ -3,8 +3,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Cake Construct</title>
-        <meta name="description" content="Cake Catoring Website">
+        <title>Wedding Info</title>
+        <meta name="description" content="Cake Catoring Website Wedding Catoring">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/main.css">
         <link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>
@@ -17,8 +17,7 @@
                     <input type="name" id="name" placeholder="User Id or Email" maxlength="30"required>
                     <label for="password">Password</label>
                     <input type="password" id="password" maxlength="30" required>
-                    <a id="loginbutton" href="app.html">Login</a>
-                    <!-- <input type="submit" id="current-submit" href="app.html" --><!-- for the sake of it workin in practice i have replced it with a <a> tag -->
+                    <input type="submit" id="current-submit" href="app.html">
                 </form>
             </div>
             <hr>
@@ -32,7 +31,6 @@
                     <input for="password" id="reg-password" maxlength="30"required>
                     <label for="validate">Confirm</label>
                     <input for="password" id="validate" maxlength="30" required>
-                    <a id="loginbutton" href="app.html">Login</a>
                     <input type="submit" id="reg-submit" href="app.html">
                 </form>
             </div>
@@ -52,6 +50,9 @@
             <div class="body-div">
                 <div class="cta"><h2>Where cakes and technology meet!</h2>
                     <p class="statement">Fantastic cakes to celebrate your every occasion. See more below for information on your specific occasion.</p>
+                    <div><!-- holder for carousel -->
+
+                    </div>
                     <p class="cta-entry"><a href="#">Register Today</a></p></div>
             </div><!-- use background image optimized and cut to size float heading up and to left and register button float right and push down -->
             <div class="body-div wed" id="wedding">
@@ -72,7 +73,8 @@
                 <p>Copyright&copy;</p>
             </div>
         </div>
-        <script src="js/jquery-1.11.0.min.js"></script>
-        <script src="js/main.js"></script>            
+        <script type="text/javascript" src="jquery.waterwheelCarousel.min.js"></script>
+        <script type="text/javascript"src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>            
     </body>
 </html>
