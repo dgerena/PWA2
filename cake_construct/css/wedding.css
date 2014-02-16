@@ -329,3 +329,16 @@ div.body-div{
     display:inline;
     width: 960px;
 }
+/* ---------------------------------- wedding carousel*/
+#carousel {
+    width:800px;
+    height: 300px;
+    display: relative;
+    margin: 0 auto;
+    margin-top:180px;
+  }
+  #carousel img {
+    height: 300px;
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+  }
