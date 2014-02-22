@@ -51,24 +51,32 @@ $(document).ready(function(){
 			}//object has no closing; 
 		});
     });
+    // $('#logout').click(function(){
+    // 	window.location.reload(true);
+    // });
     var checkLogin = function(){
-	    $.ajax({
-	            url: 'xhr/check_login.php',
-	            type: 'get',
-	            dataType: 'json',
-	            success: function(response){
-	            	console.log(response);
-	                    if(response.user){
-	                            window.location.assign("app.html");
-	                    } else {
-	                            window.location.assign("index.html");
-	                    }
-	            }
-	    });
+    	if ($(document).location.href== window.location.href('http://localhost:8888/cake_construct/app.html')){
+		    $.ajax({
+		            url: 'xhr/check_login.php',
+		            type: 'get',
+		            dataType: 'json',
+		            success: function(response){
+		            	console.log(response);
+		                    if(response.user){
+		                            window.location.assign("app.html");
+		                    } else {
+		                            window.location.reload(true);
+		                    }
+		            }
+		    });
+		};
+	    console.log("lol");
     };
-    var init=function(){
-    	checkLogin();
-    }
-    //init(); i know why its repeating endlessly but not sure i remmber how to correctly have it check login.
+    // checkLogin();
+    // var init=function(){
+    // 	if (window.location.value) {};
+    // 	checkLogin();
+    // }
+    // init(); i know why its repeating endlessly but not sure i remmber how to correctly have it check login.
 
 });
