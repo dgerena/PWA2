@@ -338,6 +338,7 @@ div.body-div{
     margin-top:180px;
   }
   #carousel img {
+    width: 300px;
     height: 300px;
     display: hidden; /* hide images until carousel prepares them */
     cursor: pointer; /* not needed if you wrap carousel items in links */
