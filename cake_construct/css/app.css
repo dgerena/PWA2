@@ -116,7 +116,7 @@ a{
 
 .body-div{
     width: 100%;
-    height: 100%;
+    height: 622px;
     display:block;
     clear: both;
     overflow: hidden;
@@ -126,7 +126,7 @@ a{
     background-color:#ccc;
 }
 .cta{
-    height: 583px;
+    height: 300px;
     width: 100%;
     clear: both;
     background-image: url('../img/mulitple-cakes-1opti.jpg');
@@ -160,43 +160,7 @@ a{
 }
 /* -------------------------------- DETAIL INFORMATION SECTION */
 
-.wed, .birth, .corp{
-    margin: 10px 0px 10px 0px;
-    background-color: #ccc;
-    border-radius: 5px;
-}
-.wed a, .birth a, .corp a{
-    float:right;
-    padding:5px;
-    margin:0 30px 10px 0;
-}
-#wedding h2,.birth h2 ,.corp h2{
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 180px;
-    width: 250px;
-    border-radius: 5px;
-    float: left;
-    font-family: 'Bilbo Swash Caps', cursive;
-    color: white;
-    margin:auto;
-}
-#wedding p,.birth p ,.corp p{
-    margin: 10px;
-    padding: 12px;
-    width: 68%;
-    float: right;
-    clear: right;  
-}
-#wedding h2{
-    background-image: url('../img/weddingcakeredbowwhiteiceopti.jpg');
-}
-.birth h2{
-    background-image: url('../img/radial-line-cakeopti.jpg');
-}
-.corp h2{
-    background-image: url('../img/whiteflowercakeopti.jpg');
-}
+
 /* -------------------------------- DIVIDER AND FOOTER SECTION */
 
 hr{
@@ -241,12 +205,12 @@ body a:hover{
     width: 500px;
     height: 500px;
 }
-.app_body-div,.app-corp,.app-birth,.app-wed{
+.app_body-div{
     width: 450px;
     display: block;
     clear: none;
     float: left;
-    margin: 7px;
+    margin: 5px;
     border-radius: 5px;
     background-color: #ccc;
 }
@@ -263,12 +227,47 @@ div.body-div{
 #app-outer-container .cta{
     width: 449px;
 }
-.app-corp{
-    float: right;
-    margin-right: 38px;
-}
 .app_cta{
     overflow: hidden;
     border-radius: 5px;
 }
-
+#accordion{
+    background-color: #ccc;
+    display:inline-block;
+    float: right;
+    width:470px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    height: 602px;
+    overflow: none;
+    border-radius: 5px;
+}
+#accordion h3{
+    margin-bottom:0;
+}
+#accordion h3 span,#accordion p{
+    background-color:#fff;
+    border-radius:0px 5px 5px 5px;
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#accordion div{
+    margin-top: o;
+}
+#accordion .ui-accordion-header-active span{
+    border-radius: 5px 5px 0px 0px;
+}
+#guest_num{
+    width:22px;
+    border-radius: 5px;
+}
+#comment_field{
+    width: 80%;
+    min-height:30px;
+    max-height: 100px;
+    text 
+}

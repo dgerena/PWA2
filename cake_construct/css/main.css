@@ -261,3 +261,9 @@ body a:hover{
     border-style: solid;
     border-color: black;
 }
+/* ------------ accordion----*/
+#accordion{
+    width: 400px;
+    background-color: red;
+    display:block;
+}

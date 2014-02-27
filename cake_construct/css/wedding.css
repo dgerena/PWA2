@@ -243,92 +243,6 @@ hr{
 body a:hover{
     color: white;
 }
-/* -------------------------------- APP PAGE SECTION */
-/* -------------------------------- HEADER SECTION */
-.app_header{
-        background-color: #ffa982;
-
-}
-.app_header #nav{
-    overflow: hidden;
-}
-.app_header .navigation{
-    float:none;
-    overflow: hidden;
-    margin-top:5px;
-    margin-bottom: -10px;
-    /*border: solid;*/
-    border-width:5px; 
-    border-color:#ffa972;
-    border-radius:5px 5px 0 0;
-}
-#logout{
-    float: right;
-}
-#app-outer-container app_cta{
-    width: 500px;
-    height: 500px;
-}
-.app_body-div,.app-corp,.app-birth,.app-wed{
-    width: 450px;
-    display: block;
-    clear: none;
-    float: left;
-    margin: 7px;
-    border-radius: 5px;
-    background-color: #ccc;
-}
-
-div #wedding{
-    margin-top: 20px;
-}
-#wedding .app-text,.body-div .app-text{
-    width: initial;
-}
-div.body-div{ 
-    margin-top: 20px;
-    background-color: #ccc;
-}
-#app-outer-container .cta{
-    width: 449px;
-}
-.app-corp{
-    float: right;
-    margin-right: 38px;
-}
-/* -------------------------------- 404 PAGE SECTION */
-/* -------------------------------- 404 tabs SECTION */
-.tabs{
-    float: left;
-    display: inline-block;
-    margin-bottom: 0px;
-    padding: 10px;
-    border-style: solid;
-    border-radius: 5px 5px 0 0; 
-    border-color: gray;
-    border-width: 1px;
-    background-color: gray;
-}
-.tabbings{
-    background-color:#ccc;
-    clear: both;
-}
-.listing .active,#corperate .listing{
-    width: 960px;
-    float: left;
-
-}
-.404tabs{
-    margin-top: 0;
-}
-.tabs .active{
-    border-width:1px 1px 1px 0; 
-}
-.module .active{
-    height: 100%
-    display:inline;
-    width: 960px;
-}
 /* ---------------------------------- wedding carousel*/
 #carousel {
     width:800px;
@@ -343,3 +257,43 @@ div.body-div{
     display: hidden; /* hide images until carousel prepares them */
     cursor: pointer; /* not needed if you wrap carousel items in links */
   }
+/* ------------------------------- TABS AND SUCH ------------ */
+.ui-tabs-vertical {
+    width: 55em; 
+}
+.ui-tabs-vertical .ui-tabs-nav {
+    background-color: #ccc;
+    padding: .2em .1em .2em .2em; 
+    float: left; 
+    width: 12.7em;
+    margin: 0; 
+    border-radius: 6px 0 0 6px; 
+
+}
+.ui-tabs-vertical .ui-tabs-nav li {
+    clear: left; 
+    width: 100%; 
+    border-bottom-width: 1px !important; 
+    border-right-width: 0 !important; 
+}
+.ui-tabs-vertical .ui-tabs-nav li a {
+    display:block; 
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    padding-bottom: 0; 
+    padding-right: .1em; 
+    border-right-width: 1px; 
+    border-right-width: 1px; 
+}
+.ui-tabs-vertical .ui-tabs-panel {
+    background-color: #ccc; 
+    padding: 1em; 
+    float: right; 
+    width: 40em;
+}
+.ui-tabs-active{
+    padding-left: 5px; 
+}
+#tabs{
+    background-color: green;
+}
