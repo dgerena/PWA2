@@ -42,13 +42,15 @@ $(document).ready(function(){
     });
 	//values captured for use in login
     $("#current-submit").click(function(){
+    	var user=$('#name').val();
+    	var pass=$('#password').val();
     	$.ajax({
 			url:'xhr/login.php',
 			type:'post',
 			dataType:'json',
 			data:{
-			username:$('#name').val(),
-			password:$('#password').val()
+			username:user,
+			password:pass
 			},
 			success:function(response){
 				if(response.error) {

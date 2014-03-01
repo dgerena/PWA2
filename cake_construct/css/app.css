@@ -116,7 +116,7 @@ a{
 
 .body-div{
     width: 100%;
-    height: 622px;
+    height: 410px;
     display:block;
     clear: both;
     overflow: hidden;
@@ -126,7 +126,7 @@ a{
     background-color:#ccc;
 }
 .cta{
-    height: 300px;
+    height: 270px;
     width: 100%;
     clear: both;
     background-image: url('../img/mulitple-cakes-1opti.jpg');
@@ -139,9 +139,12 @@ a{
     font-style:normal;
     font-size: 30px;
     position: relative;
-    top: 30px;
-    left: 50px;
+    left: 100px;
     margin: 10px;
+}
+.body-div p{
+    margin-top: 0;
+    padding:13px;
 }
 .statement{
     display: inline-block;
@@ -240,23 +243,28 @@ div.body-div{
     margin-left: 5px;
     margin-right: 5px;
     padding: 10px;
-    height: 602px;
+    height: 390px;
     overflow: none;
     border-radius: 5px;
+    overflow:hidden; 
 }
 #accordion h3{
-    margin-bottom:0;
+    padding:10px 0 0 10px;
+    border-top: 0.8px;
+    border-width:1px 0 0 0;
+    border-style: solid;
+    border-color: black;
 }
-#accordion h3 span,#accordion p{
+#accordion h3,#accordion p{
     background-color:#fff;
-    border-radius:0px 5px 5px 5px;
-    display: inline-block;
+    border-radius:5px 5px 0px 0px;
     list-style: none;
     margin-bottom: 0;
     margin-top: 0;
 }
 #accordion div{
-    margin-top: o;
+    margin-top: 0;
+
 }
 #accordion .ui-accordion-header-active span{
     border-radius: 5px 5px 0px 0px;
@@ -269,5 +277,17 @@ div.body-div{
     width: 80%;
     min-height:30px;
     max-height: 100px;
-    text 
+}
+.accord-contents{
+    background-color: #fff;
+    padding:10px;
+}
+.time{
+    width: 80px;
+}
+textarea{
+    max-width: 440px;
+    min-width: 100px;
+    max-height: 100px;
+    width: 440px;
 }
