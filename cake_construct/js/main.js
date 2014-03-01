@@ -113,6 +113,6 @@ $(document).ready(function(){
 		var val=$(this).val();
 		$('.rangeslide').val(val);
 		console.log(this.value);
-    });
+    }); 
    	
 });

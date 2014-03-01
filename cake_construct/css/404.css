@@ -121,6 +121,10 @@ a{
     clear: both;
     overflow: hidden;
 }
+#title{
+    margin: 10px 15px;
+    padding:0px 41px;
+}
 .body-div .main{
     height: 1401px;
     background-color:#ccc;
@@ -224,6 +228,14 @@ a{
     width: 68%;
     float: right;
     clear: right;
+}
+.tabings li{
+    margin:10px 10px;
+    background-color: #bacda0;
+}
+
+#outer-container{
+    background-color: #becfe1;
 }
 /* -------------------------------- DIVIDER AND FOOTER SECTION */
 
