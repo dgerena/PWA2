@@ -72,7 +72,7 @@ $(document).ready(function(){
     		dataType:'json',
     		data:{
 				username:nameReg,
-				password:passreg||passVal,
+				password:passReg||passVal,
 				email:email
     		},
     		success:function(response){
