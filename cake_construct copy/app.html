@@ -1,0 +1,114 @@
+<!-- this document created by damasio eli gerena IV -- this is the landing page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome Back</title>
+        <meta name="description" content="Cake Catering Website main page">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/app.css">
+        <link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    </head>
+    <body>
+        <div id="app-outer-container"><!-- container to target the entire page -->
+            <div class="header app_header">
+                <div class="logo">
+                </div>
+                <h1>Piece of Cake Catering</h1>
+                <div class="navigation">
+                    <ul id="nav">
+                        <li><a href="404.html">Calender</a></li>
+                        <li><a href="404.html">Orders</a></li><li><a href="404.html">Pricing</a></li>
+                        <li id="logout"><a>Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="body-div app_body-div main">
+                <div class="cta app_cta"><h2>Welcome Back User!</h2></div>
+                <p>Begin by clicking your occasion type to the right. From there fill out the form and leave your design comment.</p>
+            </div><!-- use background image optimized and cut to size float heading up and to left and register button float right and push down -->
+            <div id="accordion">
+                <h3>Wedding</h3>
+                <div class="accord-contents">
+                    <p>We provide timeless cakes and cake toppers to make your most important day memorable and deliciouse. Delicately baked and styled by hand for your wedding and to order for your party. Call two weeks in advance for design and preperation of your cake to be on time.</p>
+                    <form>
+                        <label for="date">Event Date</label>
+                        <input name="date" type="date">
+                        <br>
+                        <label for="time">From</label>
+                        <input class="time" name="time" type="time">
+                        <label for="time">To</label>
+                        <input class="time" name="time" type="time">
+                        <br>
+                        <label for="guests">Guests</label>
+                        <input class="rangeslide" name="guests" type="range" min="5" max="150" >
+                        <input class="guest_num" placeholder="">
+                        <br>
+                        <label for="phone">Contact Number</label>
+                        <input class="phone" type="tel" name="phone" placeholder="(123)-456-7890" pattern="^(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}$">
+                        <br>
+                        <label for="comments">Design ideas and allergies</label>
+                        <textarea cols="10" class="comment_field" name="comments"  maxlength="300" wrap="hard"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+              <h3>Birthday</h3>
+              <div class="accord-contents">
+                <p>Cake day is the best day for, you guessed it CAKES! Whether your having a roundabout party for close friends or a sweet 16 bash to outdo them all. We are ready to work with your and your angels wishes to make there birthday a memory for a lifetime without the bill having to remind you.</p>
+                <form>
+                    <label for="date">Event Date</label>
+                    <input name="date" type="date">
+                    <br>
+                    <label for="time">From</label>
+                    <input class="time" name="time" type="time">
+                    <label for="time">To</label>
+                    <input class="time" name="time" type="time">
+                    <br>
+                    <label for="guests">Guests</label>
+                    <input class="rangeslide" name="guests" type="range" min="5" max="150" >
+                    <input class="guest_num" placeholder="">
+                    <br>
+                    <label for="phone">Contact Number</label>
+                    <input class="phone" type="tel" name="phone" placeholder="(123)-456-7890" pattern="^(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}$">
+                    <br>
+                    <label for="comments">Design ideas and allergies</label>
+                    <textarea cols="10" class="comment_field" name="comments"  maxlength="300" wrap="hard"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+              </div>
+              <h3>Corperate</h3>
+              <div class="accord-contents">
+                <p>Business' everywhere know the key to happiness and cooperation is a good meal. Having a business meeting of a few dozen or a branch celebration? We are prepared to work with your corperate logo to show one of a kind preperation and style to give everyone the understanding that you mean business and business is good.</p>
+                <form>
+                    <label for="date">Event Date</label>
+                    <input name="date" type="date">
+                    <br>
+                    <label for="time">From</label>
+                    <input class="time" name="time" type="time">
+                    <label for="time">To</label>
+                    <input class="time" name="time" type="time">
+                    <br>
+                    <label for="guests">Guests</label>
+                    <input class="rangeslide" name="guests" type="range" min="5" max="150" >
+                    <input class="guest_num" placeholder="">
+                    <br>
+                    <label for="phone">Contact Number</label>
+                    <input class="phone" type="tel" name="phone" placeholder="(123)-456-7890" pattern="^(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}$">
+                    <br>
+                    <label for="comments">Design ideas and allergies</label>
+                    <textarea cols="10" class="comment_field" name="comments"  maxlength="300" wrap="hard"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div><!-- closing too div accordion -->
+        </div><!-- app outer container -->
+            <div class="footer"><!-- add company name and possible button to bring to top -->
+                <p>Copyright&copy;</p>
+            </div>
+        </div>
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.waterwheelCarousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
+        <script src="js/main.js"></script>            
+    </body>
+</html>

@@ -1,0 +1,96 @@
+<!-- this document created by damasio eli gerena IV -- this is the landing page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Wedding Info</title>
+        <meta name="description" content="Cake Catering Website Wedding Catering">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/wedding.css">
+        <link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="popout">
+            <div id="login">
+                <form>
+                    <label for="name">User Id</label>
+                    <input type="name" id="name" placeholder="User Id or Email" maxlength="30"required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" maxlength="30" required>
+                    <!-- <a id="loginbutton" href="app.html">Login</a> -->
+                    <input type="submit" id="current-submit">
+                </form>
+            </div>
+            <hr>
+            <div id="registration">
+                <form>
+                    <label for="email">Email</label>
+                    <input for="email"id="email" maxlength="30" required>
+                    <label for="name-reg">User ID</label>
+                    <input for="username"id="name-reg" maxlength="30"required>
+                    <label for="reg-password">Password</label>
+                    <input for="password" id="reg-password" maxlength="30"required>
+                    <label for="validate">Confirm</label>
+                    <input for="password" id="validate" maxlength="30" required>
+                    <a id="loginbutton" href="app.html">Login</a>
+                    <input type="submit" id="reg-submit" href="app.html">
+                </form>
+            </div>
+        </div>
+        <div id="outer-container"><!-- container to target the entire page -->
+            <div class="header">
+                <div class="logo">
+                </div>
+                <h1>Piece of Cake Catering</h1>
+                <div class="navigation">
+                    <ul id="nav"><li><a href="index.html">Home</a></li><li><a href="404.html">Birthdays</a></li><li><a href="404.html">Corperate</a></li></ul>
+                </div>
+                <div class="member-entry">
+                    <ul><li><a href="#">Login</a></li><li><a href="#">Register</a></li></ul>
+                </div>
+            </div>
+            <div class="body-div">
+                <div class="cta"><h2>Where cakes and technology meet!</h2>
+                    <p class="statement">Fantastic cakes to celebrate your every occasion. See more below for information on your specific occasion.</p>
+                    <div><!-- holder for carousel -->
+                        <div id="carousel">
+                            <img src="img/floralweddingcakeopti.jpg" alt="Image 1" />
+                            <img src="img/mulitple-cakes-1opti.jpg" alt="Image 2" />
+                            <img src="img/radial-line-cakeopti.jpg" alt="Image 4" />
+                            <img src="img/weddingcakeredbowwhiteiceopti.jpg" alt="Image 5" />
+                            <img src="img/whiteflowercakeopti.jpg" alt="Image 6"/>
+                        </div>
+                    </div>
+                    <p class="cta-entry"><a href="#">Register Today</a></p></div>
+            </div><!-- use background image optimized and cut to size float heading up and to left and register button float right and push down -->
+            <div id="tabs">
+              <ul>
+                <li><a href="#tabs-1">Classical</a></li>
+                <li><a href="#tabs-2">Modern</a></li>
+                <li><a href="#tabs-3">Unconventianal</a></li>
+              </ul>
+              <div id="tabs-1">
+                <h2>Classical Cake Designs</h2>
+                <p>We provide timeless cakes and cake toppers to make your most important day memorable and deliciouse. Delicately baked and styled by hand for your wedding and to order for your party. Call 2 weeks in advance for design and preperation of your cake to be on time.</p>
+              </div>
+              <div id="tabs-2">
+                <h2>Modern cake Designs</h2>
+                <p>Cake day is the best day for, you guessed it CAKES! Whether your having a roundabout party for close friends or a sweet 16 bash to outdo them all. We are ready to work with your and your angels wishes to make there birthday a memory for a lifetime without the bill having to remind you.</p>
+              </div>
+              <div id="tabs-3">
+                <h2>Unconventianal Cake Designs</h2>
+                <p>Business' everywhere know the key to happiness and cooperation is a good meal. Having a business meeting of a few dozen or a branch celebration? We are prepared to work with your corperate logo to show one of a kind preperation and style to give everyone the understanding that you mean business and business is good.</p>
+                <p>Awesomeness will insue.</p>
+              </div>
+            </div>
+            <div class="footer"><!-- add company name and possible button to bring to top -->
+                <p>Copyright&copy;</p>
+            </div>
+        </div>
+        <script type="text/javascript"src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.waterwheelCarousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>            
+    </body>
+</html>
